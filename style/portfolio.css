@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.btn-primary{
+    padding: 20px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: #474747;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 1px;
+}
+/* header styles  */
+
+header{
+    height: 808px;
+    background-image: url("../images/banner/banner3.png");
+    background-size: cover;
+    
+}
+
+.banner{
+    width: 500px;
+    text-align: right;
+    padding: 210px 900px;
+    
+}
+.title{
+    margin-bottom: 20px;
+    overflow-wrap: 0;
+    color: white;
+    font-size: 65px;
+    
+}
+.description{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+    
+    
+}
+
+/* failure section styles  */
+.failure{
+    margin-top: 140px;
+    padding: 0 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.f-title{
+    width: 288px;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.f-description{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 416px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444343;
+}
+.failure-items ul{
+    font-size: 18px;
+    list-style: none;
+    line-height: 2rem;
+    
+}
