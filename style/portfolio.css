@@ -50,6 +50,21 @@ header{
     
     
 }
+/* 
+.banner-heading{
+    display: flex;
+    width: 65rem;
+}
+.banner-heading::before{
+    content: '';
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 85rem;
+}
+.banner-heading::before{
+    transform: scaleX(-1);
+} */
 
 /* failure section styles  */
 .failure{
@@ -151,10 +166,13 @@ header{
    
 }
 .my-items{
-    background-color: papayawhip;
     border-radius: 10px;
     padding: 25px 30px;
     box-shadow: 5px 5px 20px 5px gainsboro;
+}
+.my-items strong{
+    color: #474747;
+    font-weight: 600;
 }
 .my-item-name{
     margin-top: 15px;
